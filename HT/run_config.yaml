@@ -1,0 +1,14 @@
+experiment:
+  training_steps : 100000
+  save_step : 40
+  total_fold : 6
+
+path:
+  ckpt_path : 'checkpoint'
+  metrics_path: 'metrics'
+  asset_path : 'assets/'
+
+preprocess:
+  segment_width : 21 # 1 frame = 0.046 sec, segment ~ 0.5 sec
+  segment_hop : 5 # ~ 0.25 sec
+  n_steps : 100 #  ~ 23 sec

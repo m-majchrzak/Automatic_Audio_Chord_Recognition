@@ -1,0 +1,4 @@
+Activating conda
+Winterreise mean song length 166.66659863945574 std:  67.63641391944404
+AAM mean song length 153.62757133408917 std:  17.822873726395013
+Billboard mean song length 216.3596416747357 std:  66.62321743582858
